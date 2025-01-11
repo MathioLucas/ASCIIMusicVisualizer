@@ -14,7 +14,7 @@ class MusicVisualizer:
         # Convert to log scale
         self.spec_db = librosa.power_to_db(self.spec, ref=np.max)
         self.frame_count = self.spec.shape[1]
-        self.characters = " .:;+=xX$&@"  # ASCII characters for visualization
+        self.characters = " .:;+=xX$&@"  
         
     def normalize_data(self, data):
         # Normalize data to range 0-9 (for our ASCII characters)
