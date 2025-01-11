@@ -17,7 +17,6 @@ class MusicVisualizer:
         self.characters = " .:;+=xX$&@"  
         
     def normalize_data(self, data):
-        # Normalize data to range 0-9 (for our ASCII characters)
         min_val = np.min(data)
         max_val = np.max(data)
         return ((data - min_val) * 9 / (max_val - min_val)).astype(int)
