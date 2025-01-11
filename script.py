@@ -39,7 +39,7 @@ class MusicVisualizer:
         normalized = self.normalize_data(frame_data)
         visualization = ""
         
-        # Create the frame
+        # Create  frame
         for row in reversed(normalized):
             for val in row:
                 color = self.get_color(val)
