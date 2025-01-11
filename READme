@@ -11,7 +11,7 @@ Multi-color output using terminal colors
 Smooth real-time rendering
 
 Prerequisites
-Before running the visualizer, make sure you have Python installed. You'll also need the following packages:
+Before running the visualizer, make sure you have Python installed. You'll  need the following packages:
 bashCopypip install numpy librosa colorama
 Installation
 
@@ -59,8 +59,6 @@ Red: Peak intensity
 
 
 
-Customization
-You can modify several parameters in the code:
 
 fps: Change the frame rate (default: 24)
 characters: Modify the ASCII characters used
