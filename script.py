@@ -5,6 +5,8 @@ import os
 from colorama import init, Fore, Style
 init()
 
+
+
 class MusicVisualizer:
     def __init__(self, audio_file):
         # Load the audio 
