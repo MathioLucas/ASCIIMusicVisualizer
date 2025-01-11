@@ -7,7 +7,7 @@ init()
 
 class MusicVisualizer:
     def __init__(self, audio_file):
-        # Load the audio file
+        # Load the audio 
         self.y, self.sr = librosa.load(audio_file)
         # Generate spectrogram
         self.spec = librosa.feature.melspectrogram(y=self.y, sr=self.sr)
